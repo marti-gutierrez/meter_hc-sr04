@@ -43,5 +43,5 @@ void HC_SR04_pulse()
 float HC_SR04_distance()
 {
   HC_SR04_pulse();
-  return TCNT1 * 4 * 0.034 / 2;
+  return TCNT1 * 0.068;
 }
